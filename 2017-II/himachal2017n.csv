@@ -4,31 +4,31 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 1,Churah,NAND KUMAR,SP,442
 1,Churah,DES RAJ,IND,425
 1,Churah,None of the Above,NOTA,505
-2,Bharmour     ,JIA LAL,BJP,25744
-2,Bharmour     ,THAKUR SINGH BHARMOURI,INC,18395
-2,Bharmour     ,LALIT THAKUR,IND,6255
-2,Bharmour     ,JANAM SINGH,IND,769
-2,Bharmour     ,None of the Above,NOTA,723
-3,Chamba        ,PAWAN NAYYAR,BJP,26763
-3,Chamba        ,NEERAJ NAYAR,INC,24884
-3,Chamba        ,DR. D. K. SONI,IND,725
-3,Chamba        ,BAL KRISHAN CHAUHAN,IND,649
-3,Chamba        ,PARAS RAM BHARDWAJ,BSP,562
-3,Chamba        ,None of the Above,NOTA,674
+2,Bharmour,JIA LAL,BJP,25744
+2,Bharmour,THAKUR SINGH BHARMOURI,INC,18395
+2,Bharmour,LALIT THAKUR,IND,6255
+2,Bharmour,JANAM SINGH,IND,769
+2,Bharmour,None of the Above,NOTA,723
+3,Chamba,PAWAN NAYYAR,BJP,26763
+3,Chamba,NEERAJ NAYAR,INC,24884
+3,Chamba,DR. D. K. SONI,IND,725
+3,Chamba,BAL KRISHAN CHAUHAN,IND,649
+3,Chamba,PARAS RAM BHARDWAJ,BSP,562
+3,Chamba,None of the Above,NOTA,674
 4,Dalhousie,ASHA KUMARI,INC,24224
 4,Dalhousie,D. S. THAKUR,BJP,23668
 4,Dalhousie,DHIAN SINGH,CPI,720
 4,Dalhousie,VIRENDER SHARMA,RAM,487
 4,Dalhousie,None of the Above,NOTA,569
-5,Bhattiyat                ,BIKRAM SINGH JARYAL,BJP,29119
-5,Bhattiyat                ,KULDEEP SINGH PATHANIA,INC,22234
-5,Bhattiyat                ,RAHUL RANPATIA,IND,624
-5,Bhattiyat                ,NAGESH KUMAR,IND,485
-5,Bhattiyat                ,None of the Above,NOTA,655
-6,Nurpur                   ,RAKESH PATHANIA,BJP,34871
-6,Nurpur                   ,AJAY MAHAJAN,INC,28229
-6,Nurpur                   ,HARNAM SINGH,BSP,484
-6,Nurpur                   ,None of the Above,NOTA,454
+5,Bhattiyat,BIKRAM SINGH JARYAL,BJP,29119
+5,Bhattiyat,KULDEEP SINGH PATHANIA,INC,22234
+5,Bhattiyat,RAHUL RANPATIA,IND,624
+5,Bhattiyat,NAGESH KUMAR,IND,485
+5,Bhattiyat,None of the Above,NOTA,655
+6,Nurpur,RAKESH PATHANIA,BJP,34871
+6,Nurpur,AJAY MAHAJAN,INC,28229
+6,Nurpur,HARNAM SINGH,BSP,484
+6,Nurpur,None of the Above,NOTA,454
 7,Indora,REETA DEVI,BJP,29213
 7,Indora,KAMAL KISHORE,INC,28118
 7,Indora,SUSHIL KUMAR,BSP,952
@@ -69,11 +69,11 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 11,Jaswan-Pragpur,AMIT KUMAR,IND,48
 11,Jaswan-Pragpur,OM PRAKASH,IND,47
 11,Jaswan-Pragpur,None of the Above,NOTA,342
-12,Jawalamukhi  ,RAMESH CHAND DHAWALA,BJP,27914
-12,Jawalamukhi  ,SANJAY RATTAN,INC,21450
-12,Jawalamukhi  ,VIJENDER KUMAR (CHHUNKU),IND,3529
-12,Jawalamukhi  ,PRATAP SINGH,IND,387
-12,Jawalamukhi  ,None of the Above,NOTA,419
+12,Jawalamukhi,RAMESH CHAND DHAWALA,BJP,27914
+12,Jawalamukhi,SANJAY RATTAN,INC,21450
+12,Jawalamukhi,VIJENDER KUMAR (CHHUNKU),IND,3529
+12,Jawalamukhi,PRATAP SINGH,IND,387
+12,Jawalamukhi,None of the Above,NOTA,419
 13,Jaisinghpur,RAVINDER KUMAR,BJP,29357
 13,Jaisinghpur,YADVINDER GOMA,INC,18647
 13,Jaisinghpur,KEHAR SINGH,BSP,1082
@@ -88,52 +88,52 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 14,Sullah,MOHINDER SINGH,BSP,388
 14,Sullah,KUMARI VANDNA,IND,166
 14,Sullah,None of the Above,NOTA,555
-15,Nagrota                  ,ARUN KUMAR,BJP,26809
-15,Nagrota                  ,G S BALI,INC,26290
-15,Nagrota                  ,NAVNEET,IND,338
-15,Nagrota                  ,PINKI DEVI,BSP,300
-15,Nagrota                  ,None of the Above,NOTA,483
-16,Kangra                   ,PAWAN KUMAR KAJAL,INC,25549
-16,Kangra                   ,SANJAY CHAUDHARY,BJP,19341
-16,Kangra                   ,DR. RAJESH SHARMA,IND,11805
-16,Kangra                   ,COL.(RET.)  KULDIP SINGH,LGP,482
-16,Kangra                   ,RAVI CHAND,NCP,408
-16,Kangra                   ,VIJAY KUMAR,BSP,225
-16,Kangra                   ,None of the Above,NOTA,656
-17,Shahpur         ,SARVEEN CHOUDHARY,BJP,23104
-17,Shahpur         ,MAJOR (RET.) VIJAI SINGH MANKOTIA,IND,16957
-17,Shahpur         ,KEWAL SINGH PATHANIA,INC,16333
-17,Shahpur         ,RAMESH KUMAR,IND,1111
-17,Shahpur         ,DESH RAJ CHAUDHARY,IND,1108
-17,Shahpur         ,BANARSI DASS DOGRA,BSP,516
-17,Shahpur         ,None of the Above,NOTA,1010
-18,Dharamshala    ,KISHAN KAPOOR,BJP,26050
-18,Dharamshala    ,SUDHIR SHARMA,INC,23053
-18,Dharamshala    ,RAVINDER RANA,IND,2127
-18,Dharamshala    ,PANKAJ KUMAR (PANKU),IND,1726
-18,Dharamshala    ,KAMAL KUMAR,IND,1655
-18,Dharamshala    ,PAWAN CHOUDHARY,BSP,471
-18,Dharamshala    ,ASHWANI KAJAL,BMP,307
-18,Dharamshala    ,DIGVIJAY PURI,IND,285
-18,Dharamshala    ,VIKAS CHAUDHARY,IND,281
-18,Dharamshala    ,ANUP DHIMAN,IND,273
-18,Dharamshala    ,NISHA KATOCH,SWBP,133
-18,Dharamshala    ,SUBHASH CHAND SHUKLA,IND,127
-18,Dharamshala    ,None of the Above,NOTA,525
-19,Palampur         ,ASHISH BUTAIL,INC,24252
-19,Palampur         ,INDU GOSWAMI,BJP,19928
-19,Palampur         ,PARVEEN KUMAR,IND,3198
-19,Palampur         ,BAINI PARSHAD,IND,1760
-19,Palampur         ,LEKH RAJ,CPIM,390
-19,Palampur         ,SURESH KUMAR,IND,263
-19,Palampur         ,BAL MUKUND,BSP,213
-19,Palampur         ,KAPOOR CHAND CHOUDHARY,IND,169
-19,Palampur         ,None of the Above,NOTA,435
-20,Baijnath                 ,MULKH RAJ,BJP,32102
-20,Baijnath                 ,KISHORI LAL,INC,19433
-20,Baijnath                 ,RAMESH CHAND,BSP,510
-20,Baijnath                 ,BIR SINGH,IND,331
-20,Baijnath                 ,None of the Above,NOTA,577
+15,Nagrota,ARUN KUMAR,BJP,32039
+15,Nagrota,G S BALI,INC,31039
+15,Nagrota,NAVNEET,IND,384
+15,Nagrota,PINKI DEVI,BSP,344
+15,Nagrota,None of the Above,NOTA,547
+16,Kangra,PAWAN KUMAR KAJAL,INC,25549
+16,Kangra,SANJAY CHAUDHARY,BJP,19341
+16,Kangra,DR. RAJESH SHARMA,IND,11805
+16,Kangra,COL.(RET.)  KULDIP SINGH,LGP,482
+16,Kangra,RAVI CHAND,NCP,408
+16,Kangra,VIJAY KUMAR,BSP,225
+16,Kangra,None of the Above,NOTA,656
+17,Shahpur,SARVEEN CHOUDHARY,BJP,23104
+17,Shahpur,MAJOR (RET.) VIJAI SINGH MANKOTIA,IND,16957
+17,Shahpur,KEWAL SINGH PATHANIA,INC,16333
+17,Shahpur,RAMESH KUMAR,IND,1111
+17,Shahpur,DESH RAJ CHAUDHARY,IND,1108
+17,Shahpur,BANARSI DASS DOGRA,BSP,516
+17,Shahpur,None of the Above,NOTA,1010
+18,Dharamshala,KISHAN KAPOOR,BJP,26050
+18,Dharamshala,SUDHIR SHARMA,INC,23053
+18,Dharamshala,RAVINDER RANA,IND,2127
+18,Dharamshala,PANKAJ KUMAR (PANKU),IND,1726
+18,Dharamshala,KAMAL KUMAR,IND,1655
+18,Dharamshala,PAWAN CHOUDHARY,BSP,471
+18,Dharamshala,ASHWANI KAJAL,BMP,307
+18,Dharamshala,DIGVIJAY PURI,IND,285
+18,Dharamshala,VIKAS CHAUDHARY,IND,281
+18,Dharamshala,ANUP DHIMAN,IND,273
+18,Dharamshala,NISHA KATOCH,SWBP,133
+18,Dharamshala,SUBHASH CHAND SHUKLA,IND,127
+18,Dharamshala,None of the Above,NOTA,525
+19,Palampur,ASHISH BUTAIL,INC,24252
+19,Palampur,INDU GOSWAMI,BJP,19928
+19,Palampur,PARVEEN KUMAR,IND,3198
+19,Palampur,BAINI PARSHAD,IND,1760
+19,Palampur,LEKH RAJ,CPIM,390
+19,Palampur,SURESH KUMAR,IND,263
+19,Palampur,BAL MUKUND,BSP,213
+19,Palampur,KAPOOR CHAND CHOUDHARY,IND,169
+19,Palampur,None of the Above,NOTA,435
+20,Baijnath,MULKH RAJ,BJP,32102
+20,Baijnath,KISHORI LAL,INC,19433
+20,Baijnath,RAMESH CHAND,BSP,510
+20,Baijnath,BIR SINGH,IND,331
+20,Baijnath,None of the Above,NOTA,577
 21,Lahaul & spiti,DR. RAM LAL MARKANDA,BJP,7756
 21,Lahaul & spiti,RAVI THAKUR,INC,6278
 21,Lahaul & spiti,RAJINDER KARPA,IND,2240
@@ -149,24 +149,24 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 23,Kullu,RENUKA DOGRA,RAM,469
 23,Kullu,KAMAL KANT SHARMA,IND,243
 23,Kullu,None of the Above,NOTA,407
-24,Banjar                   ,SURENDER SHOURIE,BJP,28007
-24,Banjar                   ,ADITYA VIKRAM SINGH,INC,24767
-24,Banjar                   ,JHABE RAM KAUSHAL,BSP,535
-24,Banjar                   ,None of the Above,NOTA,684
+24,Banjar,SURENDER SHOURIE,BJP,28007
+24,Banjar,ADITYA VIKRAM SINGH,INC,24767
+24,Banjar,JHABE RAM KAUSHAL,BSP,535
+24,Banjar,None of the Above,NOTA,684
 25,Anni,KISHORI LAL,BJP,30559
 25,Anni,PARAS RAM,INC,24576
 25,Anni,LOKENDER KUMAR,CPIM,4704
 25,Anni,None of the Above,NOTA,943
-26,Karsog                   ,HIRA LAL,BJP,22102
-26,Karsog                   ,MANSA RAM,INC,17272
-26,Karsog                   ,MAST RAM,IND,5675
-26,Karsog                   ,BHAGAT RAM,IND,2702
-26,Karsog                   ,PAWAN KUMAR,IND,990
-26,Karsog                   ,BHAGWANT SINGH,IND,842
-26,Karsog                   ,MEHAR SINGH KHUKHALIYA,RAM,521
-26,Karsog                   ,ANITA ALIAS NITU,IND,362
-26,Karsog                   ,CHAMAN LAL,BSP,309
-26,Karsog                   ,None of the Above,NOTA,674
+26,Karsog,HIRA LAL,BJP,22102
+26,Karsog,MANSA RAM,INC,17272
+26,Karsog,MAST RAM,IND,5675
+26,Karsog,BHAGAT RAM,IND,2702
+26,Karsog,PAWAN KUMAR,IND,990
+26,Karsog,BHAGWANT SINGH,IND,842
+26,Karsog,MEHAR SINGH KHUKHALIYA,RAM,521
+26,Karsog,ANITA ALIAS NITU,IND,362
+26,Karsog,CHAMAN LAL,BSP,309
+26,Karsog,None of the Above,NOTA,674
 27,Sundernagar,RAKESH KUMAR,BJP,32545
 27,Sundernagar,SOHAN LAL,INC,23282
 27,Sundernagar,DHARAM SINGH,BSP,624
@@ -188,20 +188,20 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 30,Darang,SURAJ MANI,IND,297
 30,Darang,CHURAMANI THAKUR,IND,170
 30,Darang,None of the Above,NOTA,407
-31,Jogindernagar,PRAKASH RANA,IND,27887
-31,Jogindernagar,GULAB SINGH THAKUR,BJP,18731
-31,Jogindernagar,JIWAN LAL THAKUR,INC,5010
-31,Jogindernagar,KUSHAL BHARDWAJ,CPIM,1722
-31,Jogindernagar,HET SINGH VERMA,BSP,395
-31,Jogindernagar,None of the Above,NOTA,1002
-32,Dharampur     ,MAHENDER SINGH,BJP,27931
-32,Dharampur     ,CHANDERSHEKHAR,INC,15967
-32,Dharampur     ,BHUPENDER SINGH,CPIM,3284
-32,Dharampur     ,RAMESH KUMAR GULERIA,RAM,428
-32,Dharampur     ,DR. PRAKASH CHAND BHARDWAJ,IND,219
-32,Dharampur     ,DIGVIJAY SINGH,IND,190
-32,Dharampur     ,SAJURAM SAKLANI,IND,74
-32,Dharampur     ,None of the Above,NOTA,333
+31,Jogindernagar,PRAKASH RANA,IND,31214
+31,Jogindernagar,GULAB SINGH THAKUR,BJP,24579
+31,Jogindernagar,JIWAN LAL THAKUR,INC,6244
+31,Jogindernagar,KUSHAL BHARDWAJ,CPIM,2864
+31,Jogindernagar,HET SINGH VERMA,BSP,521
+31,Jogindernagar,None of the Above,NOTA,1162
+32,Dharampur,MAHENDER SINGH,BJP,27931
+32,Dharampur,CHANDERSHEKHAR,INC,15967
+32,Dharampur,BHUPENDER SINGH,CPIM,3284
+32,Dharampur,RAMESH KUMAR GULERIA,RAM,428
+32,Dharampur,DR. PRAKASH CHAND BHARDWAJ,IND,219
+32,Dharampur,DIGVIJAY SINGH,IND,190
+32,Dharampur,SAJURAM SAKLANI,IND,74
+32,Dharampur,None of the Above,NOTA,333
 33,Mandi,ANIL SHARMA,BJP,31282
 33,Mandi,CHAMPA THAKUR,INC,21025
 33,Mandi,NARENDER KUMAR,BSP,438
@@ -225,120 +225,120 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 35,Sarkaghat,SANJIV KUMAR,IND,117
 35,Sarkaghat,PARO DEVI,LGP,101
 35,Sarkaghat,None of the Above,NOTA,403
-36,Bhoranj,KAMLESH KUMARI,BJP,26374
-36,Bhoranj,SURESH KUMAR,INC,20301
-36,Bhoranj,PRAVEEN KAUSHAL,BSP,470
-36,Bhoranj,DHANI RAM,IND,289
-36,Bhoranj,MADAN LAL,SAKP,244
-36,Bhoranj,None of the Above,NOTA,353
-37,Sujanpur,RAJINDER RANA,INC,21492
-37,Sujanpur,PREM KUMAR DHUMAL,BJP,18559
-37,Sujanpur,JOGINDER KUMAR THAKUR,CPIM,871
-37,Sujanpur,RAVINDER SINGH DOGRA,NCP,193
-37,Sujanpur,PARVEEN THAKUR,BSP,145
-37,Sujanpur,None of the Above,NOTA,420
-38,Hamirpur        ,NARINDER THAKUR,BJP,20156
-38,Hamirpur        ,KULDEEP SINGH PATHANIA,INC,14762
-38,Hamirpur        ,ANIL MANKOTIA,CPIM,1652
-38,Hamirpur        ,KAMAL PATHANIA,IND,419
-38,Hamirpur        ,LAL SINGH MASTANA,BSP,189
-38,Hamirpur        ,ASHISH KUMAR,IND,80
-38,Hamirpur        ,RAJ KUMAR,SAKP,61
-38,Hamirpur        ,None of the Above,NOTA,197
+36,Bhoranj,KAMLESH KUMARI,BJP,27961
+36,Bhoranj,SURESH KUMAR,INC,21069
+36,Bhoranj,PRAVEEN KAUSHAL,BSP,491
+36,Bhoranj,DHANI RAM,IND,308
+36,Bhoranj,MADAN LAL,SAKP,256
+36,Bhoranj,None of the Above,NOTA,362
+37,Sujanpur,RAJINDER RANA,INC,25288
+37,Sujanpur,PREM KUMAR DHUMAL,BJP,23369
+37,Sujanpur,JOGINDER KUMAR THAKUR,CPIM,1023
+37,Sujanpur,RAVINDER SINGH DOGRA,NCP,344
+37,Sujanpur,PARVEEN THAKUR,BSP,190
+37,Sujanpur,None of the Above,NOTA,485
+38,Hamirpur,NARINDER THAKUR,BJP,25854
+38,Hamirpur,KULDEEP SINGH PATHANIA,INC,18623
+38,Hamirpur,ANIL MANKOTIA,CPIM,2398
+38,Hamirpur,KAMAL PATHANIA,IND,509
+38,Hamirpur,LAL SINGH MASTANA,BSP,231
+38,Hamirpur,ASHISH KUMAR,IND,111
+38,Hamirpur,RAJ KUMAR,SAKP,78
+38,Hamirpur,None of the Above,NOTA,259
 39,Barsar,INDER DUTT LAKHANPAL,INC,25679
 39,Barsar,BALDEV SHARMA,BJP,25240
 39,Barsar,SITA RAM BHARDWAJ,IND,5181
 39,Barsar,SAROTI DEVI,BSP,281
 39,Barsar,VINOD THAKUR,LGP,138
 39,Barsar,None of the Above,NOTA,464
-40,Nadaun     ,SUKHVINDER SINGH SUKHU,INC,25989
-40,Nadaun     ,VIJAY AGNIHOTRI,BJP,24000
-40,Nadaun     ,LEKH RAJ LEKHA,IND,1575
-40,Nadaun     ,PRITHI CHAND SHARMA,IND,319
-40,Nadaun     ,RAVI PARKASH,BSP,275
-40,Nadaun     ,RANJEET SINGH JEETU,IND,267
-40,Nadaun     ,None of the Above,NOTA,171
-41,Chintpurni               ,BALBIR SINGH,BJP,32488
-41,Chintpurni               ,KULDIP  KUMAR,INC,23909
-41,Chintpurni               ,RANJIT SINGH,BSP,621
-41,Chintpurni               ,None of the Above,NOTA,534
-42,Gagret                   ,RAJESH THAKUR,BJP,33977
-42,Gagret                   ,RAKESH KALIA,INC,24657
-42,Gagret                   ,SUBHASH SHARMA,IND,379
-42,Gagret                   ,LEKH RAJ KATNORIA,BSP,260
-42,Gagret                   ,None of the Above,NOTA,392
+40,Nadaun,SUKHVINDER SINGH SUKHU,INC,30980
+40,Nadaun,VIJAY AGNIHOTRI,BJP,28631
+40,Nadaun,LEKH RAJ LEKHA,IND,1875
+40,Nadaun,PRITHI CHAND SHARMA,IND,364
+40,Nadaun,RAVI PARKASH,BSP,339
+40,Nadaun,RANJEET SINGH JEETU,IND,302
+40,Nadaun,None of the Above,NOTA,210
+41,Chintpurni,BALBIR SINGH,BJP,32488
+41,Chintpurni,KULDIP  KUMAR,INC,23909
+41,Chintpurni,RANJIT SINGH,BSP,621
+41,Chintpurni,None of the Above,NOTA,534
+42,Gagret,RAJESH THAKUR,BJP,33977
+42,Gagret,RAKESH KALIA,INC,24657
+42,Gagret,SUBHASH SHARMA,IND,379
+42,Gagret,LEKH RAJ KATNORIA,BSP,260
+42,Gagret,None of the Above,NOTA,392
 43,Haroli,MUKESH AGNIHOTRI,INC,35095
 43,Haroli,RAM KUMAR,BJP,27718
 43,Haroli,RAVINDER MANN,IND,833
 43,Haroli,VIRENDER KUMAR,BSP,376
 43,Haroli,None of the Above,NOTA,448
-44,Una                      ,SATPAL SINGH RAIZADA,INC,31360
-44,Una                      ,SATPAL SINGH SATTI,BJP,28164
-44,Una                      ,RAJIV GAUTAM,IND,1723
-44,Una                      ,RAVI KUMAR,BSP,659
-44,Una                      ,GULZAR SINGH,IND,306
-44,Una                      ,None of the Above,NOTA,256
-45,Kutlehar                 ,VIRENDER KANWAR,BJP,31101
-45,Kutlehar                 ,VIVEK SHARMA,INC,25495
-45,Kutlehar                 ,SHIV HARI PAL,IND,1017
-45,Kutlehar                 ,MANOHAR LAL,BSP,570
-45,Kutlehar                 ,SANDEEP SHARMA,SWBP,365
-45,Kutlehar                 ,SAWARN DASS,IND,363
-45,Kutlehar                 ,None of the Above,NOTA,311
+44,Una,SATPAL SINGH RAIZADA,INC,31360
+44,Una,SATPAL SINGH SATTI,BJP,28164
+44,Una,RAJIV GAUTAM,IND,1723
+44,Una,RAVI KUMAR,BSP,659
+44,Una,GULZAR SINGH,IND,306
+44,Una,None of the Above,NOTA,256
+45,Kutlehar,VIRENDER KANWAR,BJP,31101
+45,Kutlehar,VIVEK SHARMA,INC,25495
+45,Kutlehar,SHIV HARI PAL,IND,1017
+45,Kutlehar,MANOHAR LAL,BSP,570
+45,Kutlehar,SANDEEP SHARMA,SWBP,365
+45,Kutlehar,SAWARN DASS,IND,363
+45,Kutlehar,None of the Above,NOTA,311
 46,Jhanduta,JEET RAM KATWAL,BJP,29030
 46,Jhanduta,BEERU RAM KISHORE,INC,24068
 46,Jhanduta,None of the Above,NOTA,624
-47,Ghumarwin    ,RAJINDER GARG,BJP,34846
-47,Ghumarwin    ,RAJESH DHARMANI,INC,24411
-47,Ghumarwin    ,SURESH KUMAR,IND,475
-47,Ghumarwin    ,None of the Above,NOTA,390
-48,Bilaspur                 ,SUBHASH THAKUR,BJP,31547
-48,Bilaspur                 ,BUMBER THAKUR,INC,24685
-48,Bilaspur                 ,BASANT RAM SANDHU,IND,1300
-48,Bilaspur                 ,AMAR SINGH,LGP,292
-48,Bilaspur                 ,None of the Above,NOTA,322
+47,Ghumarwin,RAJINDER GARG,BJP,34846
+47,Ghumarwin,RAJESH DHARMANI,INC,24411
+47,Ghumarwin,SURESH KUMAR,IND,475
+47,Ghumarwin,None of the Above,NOTA,390
+48,Bilaspur,SUBHASH THAKUR,BJP,31547
+48,Bilaspur,BUMBER THAKUR,INC,24685
+48,Bilaspur,BASANT RAM SANDHU,IND,1300
+48,Bilaspur,AMAR SINGH,LGP,292
+48,Bilaspur,None of the Above,NOTA,322
 49,Sri Naina Deviji,RAM LAL THAKUR,INC,28119
 49,Sri Naina Deviji,RANDHIR SHARMA,BJP,27077
 49,Sri Naina Deviji,RAMESH CHAND,IND,382
 49,Sri Naina Deviji,BALAK RAM SHARMA,AIFB,357
 49,Sri Naina Deviji,SUKH RAM THAKUR,IND,314
 49,Sri Naina Deviji,None of the Above,NOTA,477
-50,Arki                     ,VIRBHADRA SINGH,INC,34499
-50,Arki                     ,RATTAN SINGH PAL,BJP,28448
-50,Arki                     ,VIJAY SINGH RAJPUT,,445
-50,Arki                     ,VIJAY SINGH CHAUHAN,IND,289
-50,Arki                     ,None of the Above,NOTA,530
-51,Nalagarh      ,LAKHVINDER SINGH RANA,INC,25872
-51,Nalagarh      ,K. L. THAKUR,BJP,24630
-51,Nalagarh      ,HARDEEP SINGH BAWA,IND,13095
-51,Nalagarh      ,HARPREET SINGH SAINI,IND,5443
-51,Nalagarh      ,GURNAM SINGH,IND,613
-51,Nalagarh      ,None of the Above,NOTA,678
-52,Doon                     ,PARAMJEET SINGH,BJP,29701
-52,Doon                     ,RAM KUMAR,INC,25382
-52,Doon                     ,INDER SINGH THAKUR,IND,436
-52,Doon                     ,None of the Above,NOTA,345
-53,Solan                    ,DR. (COL.) DHANI RAM SHANDIL,INC,26200
-53,Solan                    ,RAJESH KASHYAP,BJP,25529
-53,Solan                    ,AJAY BHATTI,CPIM,1632
-53,Solan                    ,SHASHI KANT CHAUHAN,IND,389
-53,Solan                    ,None of the Above,NOTA,656
-54,Kasauli                  ,RAJIV SAIZAL,BJP,23656
-54,Kasauli                  ,VINOD SULTANPURI,INC,23214
-54,Kasauli                  ,VIRENDER KUMAR KASHYAP,CPI,652
-54,Kasauli                  ,RAJEEV KUMAR KAUNDAL,IND,329
-54,Kasauli                  ,KESHAV KUMAR,SWBP,321
-54,Kasauli                  ,None of the Above,NOTA,503
-55,Pachhad        ,SURESH KUMAR KASHYAP,BJP,30243
-55,Pachhad        ,GANGU RAM MUSAFIR,INC,23816
-55,Pachhad        ,RATTAN SINGH KASHYAP,IND,1182
-55,Pachhad        ,None of the Above,NOTA,495
-56,Nahan                    ,DR. RAJEEV BINDAL,BJP,31975
-56,Nahan                    ,AJAY SOLANKEY,INC,27957
-56,Nahan                    ,VISHWANATH,CPIM,843
-56,Nahan                    ,JAI CHAND,BSP,706
-56,Nahan                    ,VIRENDER KUMAR,LGP,281
-56,Nahan                    ,None of the Above,NOTA,598
+50,Arki,VIRBHADRA SINGH,INC,34499
+50,Arki,RATTAN SINGH PAL,BJP,28448
+50,Arki,VIJAY SINGH RAJPUT,,445
+50,Arki,VIJAY SINGH CHAUHAN,IND,289
+50,Arki,None of the Above,NOTA,530
+51,Nalagarh,LAKHVINDER SINGH RANA,INC,25872
+51,Nalagarh,K. L. THAKUR,BJP,24630
+51,Nalagarh,HARDEEP SINGH BAWA,IND,13095
+51,Nalagarh,HARPREET SINGH SAINI,IND,5443
+51,Nalagarh,GURNAM SINGH,IND,613
+51,Nalagarh,None of the Above,NOTA,678
+52,Doon,PARAMJEET SINGH,BJP,29701
+52,Doon,RAM KUMAR,INC,25382
+52,Doon,INDER SINGH THAKUR,IND,436
+52,Doon,None of the Above,NOTA,345
+53,Solan,DR. (COL.) DHANI RAM SHANDIL,INC,26200
+53,Solan,RAJESH KASHYAP,BJP,25529
+53,Solan,AJAY BHATTI,CPIM,1632
+53,Solan,SHASHI KANT CHAUHAN,IND,389
+53,Solan,None of the Above,NOTA,656
+54,Kasauli,RAJIV SAIZAL,BJP,23656
+54,Kasauli,VINOD SULTANPURI,INC,23214
+54,Kasauli,VIRENDER KUMAR KASHYAP,CPI,652
+54,Kasauli,RAJEEV KUMAR KAUNDAL,IND,329
+54,Kasauli,KESHAV KUMAR,SWBP,321
+54,Kasauli,None of the Above,NOTA,503
+55,Pachhad,SURESH KUMAR KASHYAP,BJP,30243
+55,Pachhad,GANGU RAM MUSAFIR,INC,23816
+55,Pachhad,RATTAN SINGH KASHYAP,IND,1182
+55,Pachhad,None of the Above,NOTA,495
+56,Nahan,DR. RAJEEV BINDAL,BJP,31563
+56,Nahan,AJAY SOLANKEY,INC,27573
+56,Nahan,VISHWANATH,CPIM,836
+56,Nahan,JAI CHAND,BSP,689
+56,Nahan,VIRENDER KUMAR,LGP,272
+56,Nahan,None of the Above,NOTA,594
 57,Sri Renukaji,VINAY KUMAR,INC,22028
 57,Sri Renukaji,BALBIR SINGH,BJP,16868
 57,Sri Renukaji,HIRDAYA RAM,IND,12069
@@ -353,25 +353,25 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 59,Shillai,MANI RAM,SWBP,850
 59,Shillai,KEDAR SINGH JINDAN,BSP,463
 59,Shillai,None of the Above,NOTA,475
-60,Chopal                   ,BALBIR SINGH VERMA,BJP,29537
-60,Chopal                   ,DR.SUBHASH CHAND  MANGLATE,INC,24950
-60,Chopal                   ,HARI CHAND,BSP,498
-60,Chopal                   ,HARI SINGH PANWAR,IND,340
-60,Chopal                   ,None of the Above,NOTA,452
-61,Theog                    ,RAKESH SINGHA,CPIM,24791
-61,Theog                    ,RAKESH VERMA,BJP,22808
-61,Theog                    ,DEEPAK RAHOUR,INC,9101
-61,Theog                    ,DEVI RAM SHARMA,IND,641
-61,Theog                    ,ROSHAN LAL,IND,294
-61,Theog                    ,None of the Above,NOTA,383
-62,Kasumpti         ,ANIRUDH SINGH,INC,22061
-62,Kasumpti         ,VIJAY JYOTI,BJP,12664
-62,Kasumpti         ,KULDIP SINGH TANWAR,CPIM,4698
-62,Kasumpti         ,MADAN MOHAN,IND,954
-62,Kasumpti         ,INDER SINGH,IND,212
-62,Kasumpti         ,RAMESH KUMAR,BSP,154
-62,Kasumpti         ,DEV RAJ BHARDWAJ,IND,71
-62,Kasumpti         ,None of the Above,NOTA,404
+60,Chopal,BALBIR SINGH VERMA,BJP,29537
+60,Chopal,DR.SUBHASH CHAND  MANGLATE,INC,24950
+60,Chopal,HARI CHAND,BSP,498
+60,Chopal,HARI SINGH PANWAR,IND,340
+60,Chopal,None of the Above,NOTA,452
+61,Theog,RAKESH SINGHA,CPIM,24791
+61,Theog,RAKESH VERMA,BJP,22808
+61,Theog,DEEPAK RAHOUR,INC,9101
+61,Theog,DEVI RAM SHARMA,IND,641
+61,Theog,ROSHAN LAL,IND,294
+61,Theog,None of the Above,NOTA,383
+62,Kasumpti,ANIRUDH SINGH,INC,22061
+62,Kasumpti,VIJAY JYOTI,BJP,12664
+62,Kasumpti,KULDIP SINGH TANWAR,CPIM,4698
+62,Kasumpti,MADAN MOHAN,IND,954
+62,Kasumpti,INDER SINGH,IND,212
+62,Kasumpti,RAMESH KUMAR,BSP,154
+62,Kasumpti,DEV RAJ BHARDWAJ,IND,71
+62,Kasumpti,None of the Above,NOTA,404
 63,Shimla,SURESH BHARDWAJ,BJP,14012
 63,Shimla,HARISH JANARTHA,IND,12109
 63,Shimla,SANJAY CHAUHAN,CPIM,3047
@@ -388,20 +388,20 @@ AC_NO,AC_NAME,NAME,PARTY,VOTES
 65,Jubbal-Kotkhai,ROHIT THAKUR,INC,26404
 65,Jubbal-Kotkhai,LOKINDER JHOUTA,IND,370
 65,Jubbal-Kotkhai,None of the Above,NOTA,289
-66,Rampur          ,NAND LAL,INC,25730
-66,Rampur          ,PREM SINGH DARAIK,BJP,21693
-66,Rampur          ,SINGHI RAM,IND,3801
-66,Rampur          ,VIVEK KASHYAP,CPIM,1325
-66,Rampur          ,SURESH SINGH SAINI,BSP,297
-66,Rampur          ,None of the Above,NOTA,504
-67,Rohru                    ,MOHAN LAL BRAKTA,INC,29134
-67,Rohru                    ,SHASHI BALA,BJP,19726
-67,Rohru                    ,SHURVIR SINGH,BSP,415
-67,Rohru                    ,NARAYAN CHAND,SWBP,317
-67,Rohru                    ,None of the Above,NOTA,535
-68,Kinnaur                  ,JAGAT SINGH NEGI,INC,20029
-68,Kinnaur                  ,TEJWANT SINGH NEGI,BJP,19909
-68,Kinnaur                  ,JEEVAN SINGH,CPIM,913
-68,Kinnaur                  ,KAILASH CHAND,BSP,404
-68,Kinnaur                  ,RAJEEV KUMAR NEGI,RPS,321
-68,Kinnaur                  ,None of the Above,NOTA,249
+66,Rampur,NAND LAL,INC,25730
+66,Rampur,PREM SINGH DARAIK,BJP,21693
+66,Rampur,SINGHI RAM,IND,3801
+66,Rampur,VIVEK KASHYAP,CPIM,1325
+66,Rampur,SURESH SINGH SAINI,BSP,297
+66,Rampur,None of the Above,NOTA,504
+67,Rohru,MOHAN LAL BRAKTA,INC,29134
+67,Rohru,SHASHI BALA,BJP,19726
+67,Rohru,SHURVIR SINGH,BSP,415
+67,Rohru,NARAYAN CHAND,SWBP,317
+67,Rohru,None of the Above,NOTA,535
+68,Kinnaur,JAGAT SINGH NEGI,INC,20029
+68,Kinnaur,TEJWANT SINGH NEGI,BJP,19909
+68,Kinnaur,JEEVAN SINGH,CPIM,913
+68,Kinnaur,KAILASH CHAND,BSP,404
+68,Kinnaur,RAJEEV KUMAR NEGI,RPS,321
+68,Kinnaur,None of the Above,NOTA,249
