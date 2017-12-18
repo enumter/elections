@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Elections | 2017 Indian state assembly elections</title>
+  <meta name="description" content="2017 Indian state assembly elections."/>
+  <meta name="keywords" content="Gujarat, Election 2017, Himachal, BJP, INC, Congress" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <meta property="og:url" content="http://www.projects.enumter.com/elections/2017/" />
+  <meta property="og:title" content="2017 Indian State Assembly Election Results" />
+  <meta property="article:author" content="https://www.facebook.com/pratapvardhan" />
+  <meta property="article:publisher" content="https://www.facebook.com/enumter" />
+  <meta property="og:image" content="http://www.projects.enumter.com/elections/2017/img/view.png" />
+  <meta property="og:description" content="Explore Gujarat, Himachal Pradesh results interactively.." />
+  <meta property="og:image:type" content="image/png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@enumter" />
+  <meta name="twitter:title" content="2017 Indian State Assembly Election Results" />
+  <meta name="twitter:description" content="Explore Gujarat, Himachal Pradesh results interactively.." />
+  <meta name="twitter:image:src" content="http://www.projects.enumter.com/elections/2017/img/view.png" />
+
+</head><body>
+
+<div class="view-container">
+
+  <div class="col-sidebar">
+    <div class="side-header">
+      <h2>State Elections <br> 2017</h2>
+      <a class="click" href="http://www.enumter.com" target="blank"><div class="powered-up">Enumter | enumter.com</div></a>
+    </div>
+
+    <script id="tpl-st-summary" type="text/template">
+      <div class="st-summary">
+        <h3><%= spec[state].alias %><% if (year) { %> - <%= year %><% } %></h3>
+        <div class="aln-meter">
+          <div class="aln-group aln-count">
+            <div class="aln-left"><%= results.I.seats %></div>
+            <div class="aln-right"><%= results.II.seats %></div>
+          </div>
+
+          <div class="aln-barbox">
+            <div class="aln summary">
+              <div class="bar" style="background-color:<%= color_ranges[results.I.name][2] %>;width:<%= results.I.seats/results.T*100  %>%"><%= results.I.seats %></div>
+              <div class="bar" style="background-color:<%= color_ranges._O_[2] %>;width:<%= results.OT.seats/results.T*100 %>%"><%= results.OT.seats %></div>
+              <div class="bar" style="background-color:<%= color_ranges[results.II.name][2] %>;width:<%= results.II.seats/results.T*100 %>%"><%= results.II.seats %></div>
+            </div>
+            <span class="center">▲</span>
+            <span class="center note"><%= (results.T/2).toFixed(0) %> / <%= results.T %></span>
+            <span class="center line">|</span>
+          </div>
+
+          <div class="aln-group aln-party">
+            <div class="aln-left"><%= results.I.name %>+</div>
+            <div class="aln-right"><%= results.II.name %>+</div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script id="tpl-st2" type="text/template">
+    <% _.each(states, function(st) { %>
+      <a href="?view=map&state=<%= st %>">
+      <% if (st != params.state) { %>
+        <%= templates["tpl-st-summary"]({state: st, results: results[st], year: false}) %>
+      <% } %>
+      </a>
+    <% }) %>
+    </script>
+
+  </div>
+
+  <div class="col-mainbar">
+    <header>
+      <nav class="us2016-nav">
+      <script id="tpl-stab" type="text/template">
+        <div class="nav-group state">
+          <% _.each(states, function(st) { %>
+              <a <%= (st == params.state)?'class="active"':'' %> href="?view=map&state=<%= st %>"><span class="large"><%= spec[st].alias %></span></a>
+          <% }) %>
+        </div>
+        <div class="nav-group view">
+          <a class="icon list-icon <%= (params.view == 'list')?'active':'' %>" href="?view=list&state=<%= params.state %>"></a>
+          <a class="icon map-icon <%= (params.view == 'map')?'active':'' %>" href="?view=map&state=<%= params.state %>"></a>
+        </div>
+      </script>
+      </nav>
+    </header>
+    <div class="main-view">
+      <div class="summary-view">
+      <script id="tpl-sti" type="text/template">
+        <div class="party-icon party-I">
+          <img src="img/<%= faces[results.I.name] %>">
+        </div>
+          <%= templates["tpl-st-summary"]({params: params, state: state, results: results, year: 2017}) %>
+        <div class="party-icon party-II">
+          <img src="img/<%= faces[results.II.name] %>">
+        </div>
+      </script>
+      </div>
+      <div class="map-view">
+        <div class="map-canvas"></div>
+        <div class="details-view">
+
+          <script id="tpl-details" type="text/template">
+          <% if (view) { %>
+            <div class="details-head">
+              <span class="state"><%= state %></span> > <span class="ac-name"><%= df.AC_NAME %></span> | <span class="votes"><%= df.total.toLocaleString() %> votes</span> | <span class="votes"><%= df.candidates.length.toLocaleString() %> candidates</span>
+            </div>
+            <div class="dTb">
+              <div class="dTbRow">
+                <div class="dTbHead" style="width:1px;"><strong>#</strong></div>
+                <div class="dTbHead dTb-party" style="width:1px;"><strong>Party</strong></div>
+                <div class="dTbHead"><strong>Name</strong></div>
+                <div class="dTbHead"><strong>Votes</strong></div>
+                <div class="dTbHead"><strong>Vote(%)</strong></div>
+              </div>
+            <% _.each(df.candidates, function(x) { %>
+              <div class="dTbRow">
+                <div class="dTbCell"><%= x.rank %></div>
+                <div class="dTbCell"><%= x.PARTY %></div>
+                <div class="dTbCell dTb-name"><%= x.NAME %></div>
+                <div class="dTbCell">
+                  <div class="aln summary">
+                    <div class="bar" style="background-color:<%= (color_ranges[x.PARTY] || color_ranges._O_)[2] %>;width:<%= x.share %>%"><%= x.VOTES.toLocaleString() %></div>
+                  </div>
+                </div>
+                <div class="dTbCell dTb-num"><%= x.share.toFixed(1) %></div>
+              </div>
+            <% }) %>
+            </div>
+          <% } else { %>
+            <div class="details-head">
+              <span class="state"><%= state %></span> | <span class="votes"><%= total_stats.votes.toLocaleString() %> votes</span> | <span class="votes"><%= total_stats.candidates.toLocaleString() %> candidates</span>
+            </div>
+            <div class="dTb">
+              <div class="dTbRow">
+                <div class="dTbHead" style="width:1px;"><strong>#</strong></div>
+                <div class="dTbHead dTb-party" style="width:1px;"><strong>Party</strong></div>
+                <div class="dTbHead"><strong>Wins</strong></div>
+                <div class="dTbHead"><strong>Vote(%)</strong></div>
+              </div>
+            <% _.each(stats, function(x, i) { %>
+              <div class="dTbRow">
+                <div class="dTbCell"><%= i + 1 %></div>
+                <div class="dTbCell"><%= x.PARTY %></div>
+                <div class="dTbCell">
+                  <div class="aln summary">
+                    <div class="bar" style="background-color:<%= (color_ranges[x.PARTY] || color_ranges._O_)[2] %>;width:<%= x.win / stats[0].win * 100 %>%"><%= x.win %></div>
+                  </div>
+                </div>
+                <div class="dTbCell dTb-num"><%= x.share.toFixed(1) %></div>
+              </div>
+            <% }) %>
+            </div>
+          <% } %>
+          </script>
+        </div>
+      </div>
+      <div class="list-view">
+        <script id="tpl-list" type="text/template">
+
+            <div class="dTb">
+              <div class="dTbRow">
+                <div class="dTbHead"><strong>Assembly</strong></div>
+                <div class="dTbHead"><strong>Winner</strong></div>
+                <div class="dTbHead"><strong>Runner-up I</strong></div>
+                <div class="dTbHead"><strong>Runner-up II</strong></div>
+                <div class="dTbHead"><strong>Total Votes</strong></div>
+              </div>
+              <% _.each(_.sortBy(df, 'AC_NAME'), function(x) { %>
+              <div class="dTbRow">
+                <div class="dTbCell"><strong><%= x.AC_NAME %></strong></div>
+                <% _.each(x.candidates.slice(0, 3), function(y) { %>
+                  <div class="dTbCell party-x">
+                    <div class="dwrap" style="background: <%= (color_ranges[y.PARTY] || color_ranges._O_)[2] %>;">
+                    <%= y.PARTY %>
+                    </div>
+                  </div>
+                <% }) %>
+                <% _.each(_.range(3 - x.candidates.length), function(y) { %>
+                  <div class="dTbCell"></div>
+                <% }) %>
+                <div class="dTbCell votes"><%= x.total.toLocaleString() %></div>
+              </div>
+              <% }) %>
+            </div>
+        </script>
+      </div>
+    </div>
+  </div>
+<a class="click" href="http://www.enumter.com" target="blank"><div class="powered">Enumter | enumter.com</div></a>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/underscore-min.js"></script>
+<script src="js/d3.v4.min.js"></script>
+<script src="js/topojson.v2.min.js"></script>
+<script src="js/utils.js"></script>
+
+<script type="text/javascript">
+
+// up, uk, punjab, manipur goa_ac_map.json
+var states = ["gujarat", "himachal"]
+var _e = {}
+var _state = states[1]
+var _party = "INC"
+
+var summary_results = {'himachal': {'I': {'name': 'BJP', 'seats': 44}, 'II': {'name': 'INC', 'seats': 21}, 'OT': {'name': 'OTHER', 'seats': 3}, 'T': 68}, 'gujarat': {'I': {'name': 'BJP', 'seats': 99}, 'II': {'name': 'INC', 'seats': 77}, 'OT': {'name': 'OTHER', 'seats': 6}, 'T': 182}}
+
+var spec = {
+  gujarat:  {vote_share: [30, 50], alias: "Gujarat"},
+  himachal: {vote_share: [30, 50], alias: "Himachal Pradesh"}
+}
+
+var color_ranges = {
+  BJP: ["#fb9a3f", "#f9881f", "#f97d09"],
+  INC: ["#a7daff", "#55b8ff", "#2ea7ff"],
+  BSP: ["#5260f5", "#404ff1", "#2e3eeb"],
+   SP: ["#579461", "#428a4e", "#2e803c"],
+ AITC: ["#51d88e", "#32965f", "#016b31"],
+  AAP: ["#51d88e", "#32965f", "#016b31"],
+  SAD: ["#eae06e", "#e2d53f", "#d0be02"],
+  RLD: ["#51d88e", "#32965f", "#016b31"],
+  NOTA: ["#000", "#000", "#000"],
+  _O_: ["#f1f1f1", "#999999", "#666666"]
+}
+
+var faces = {
+  BJP: 'modi.png',
+  INC: 'rahul.png',
+  BSP: 'mayawati.png',
+   SP: 'akilhesh.png',
+ AITC: 'AITC.png',
+  AAP: 'kejriwal.png',
+  SAD: 'badal.png',
+  RLD: 'RLD.png',
+}
+//
+
+var base_url = window.location.protocol + "//" + window.location.host + window.location.pathname
+function draw(){
+  var params = qParams()
+  //console.log(params)
+  if (!('state' in params)) params.state = 'gujarat'
+  if (!('view' in params)) params.view = 'map'
+  $("#tpl-st2").template({params: params, results: summary_results})
+  $("#tpl-sti").template({params: params, state: params.state, results: summary_results[params.state]})
+  $("#tpl-stab").template({params: params})
+  draw_map(params)
+}
+
+$("body")
+  .on("click", "a.click", function(e){
+    e.stopImmediatePropagation()
+  })
+  .on("click", "a", function(e){
+    e.preventDefault()
+    url = base_url + $(this).attr('href')
+    window.history.pushState({path: url},'', url)
+    draw()
+  })
+
+draw()
+// History back
+$(window).on('popstate', draw)
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43573977-2', 'auto');
+  ga('send', 'pageview');
+</script>
+</body></html>
